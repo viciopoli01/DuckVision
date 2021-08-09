@@ -32,14 +32,14 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
+  <h3 align="center">Duck Vision</h3>
   <a href="https://github.com/viciopoli01/DuckVision">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="media/lanef_demo.gif" alt="Logo">
+
   </a>
 
-  <h3 align="center">project_title</h3>
-
   <p align="center">
-    project_description
+    The goal of our “Duck Vision” project was the integration of the OAK-D device from OpenCV’s AI Kit into the Duckietown platform. We think that the integration of OAK-D in the Duckietown infrastructure can boost autonomous car software development and research, as well as expose students who are working in the Duckietown framework to spatial AI and stereo vision.
     <br />
     <a href="https://github.com/viciopoli01/DuckVision"><strong>Explore the docs »</strong></a>
     <br />
