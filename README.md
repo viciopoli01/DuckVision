@@ -63,13 +63,9 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
@@ -80,7 +76,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The goal of our “Duck Vision” project was the integration of the OAK-D device from OpenCV’s AI Kit into the Duckietown platform. We think that the integration of OAK-D in the Duckietown infrastructure can boost autonomous car software development and research, as well as expose students who are working in the Duckietown framework to spatial AI and stereo vision.
 
@@ -143,9 +138,10 @@ Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/vic
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-Thank to:
+Thanks to:
 * [**Duckietown**](https://github.com/duckietown), for letting us using the lab.
-* **Microsoft Azure** and **intel** for sponsoring the [OpenCV AI Competition 2021](https://opencv.org/opencv-ai-competition-2021/).
+* **Microsoft Azure** and **intel** for sponsoring the [OpenCV AI Competition 2021](https://opencv.org/opencv-ai-competition-2021/). 
+* [othneildrew](https://github.com/othneildrew/Best-README-Template) for the README template.
 
 
 
