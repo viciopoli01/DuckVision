@@ -20,6 +20,7 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 A Duckiebot has only one visual sensor: a small camera. By integrating the OAK-D, our goal was to enhance the perception pipeline of the robot, giving a spatial representation of the environment and boosting the computational power of the car by offloading some computation to the OAK-D device. The OAK-D is not just a stereo camera, instead it represents the latest in terms of on-edge computation platforms. That is, given the onboard Vision Processing Unit (VPU), it is able to accelerate machine vision processing tasks like object recognition, gesture detection, and so on, bringing computer vision to the next level.
 
 <div style="text-align:center"><img src="media/oakd+duckiebot.png" /></div>
+<div style="text-align:center"><img src="media/oakd_on_db.jpeg"width="50% "/></div>
 
 The project we are presenting aims to create documentation and support for the OAK-D in Duckietown, developing the didactic material and a demo. The didactic material is part of the documentation, with simple student exercises and tutorials on reading camera data in real-time, stereo vision, and machine learning (ML) applications. We also developed and 3D printed a mount to easily attach the OAK-D to the front of Duckiebot vehicles.
 
@@ -87,13 +88,14 @@ To extend our work in the future, we would like to propose a few other use cases
 Other extensions, such as simultaneous localization and mapping (SLAM) systems which utilize the OAK-D’s stereo vision, would also be relevant. Finally, deep learning applications like detection of bounding boxes of Duckies or other Duckiebots in the environment would be a way for students to practice machine learning while also understanding how to prepare a model for inference “in production.”
 
 ### Source code
-oakd-tutorials - Jupyter notebooks demonstrating OAK-D integration (reading cameras, stereo, machine learning) with Duckietown (software infrastructure, ROS, Docker)
-dt-gui-tools-oakd - description
-duckietown-shell-commands-oakd - Set of commands for stop and start the official camera, build and test the oaks tutorials.
-...
+[oakd-tutorials](https://github.com/viciopoli01/oakd-tutorials) - Jupyter notebooks demonstrating OAK-D integration (reading cameras, stereo, machine learning) with Duckietown (software infrastructure, ROS, Docker)
+[duckietown-shell-commands](https://github.com/duckietown/duckietown-shell-commands) - These commands come with the installation of the Duckietown Shell switching to the branch “daffy-oakd”. We added a new set of commands for stop and start the official camera, build and test the oaks tutorials.
+[oakd-calibration](https://github.com/viciopoli01/oakd-calibration) - wrapper around the DepthAI camera calibration tool.
+[oakd-base](https://github.com/viciopoli01/oakd-base) - Base image for the OAK-D template. Here we use the Duckietown ROS template and we add the installation of the DpethAI API.
+[oakd-template](https://github.com/viciopoli01/oakd-template) - A template to develop DepthAI application based on the DTROS ([Duckietown ROS](https://docs.duckietown.org/daffy/autodocs/contribute/code_style.html)) infrastructure.
 
 ### Acknowledgements
-We want to say thanks to the Duckietown lab for the possibility they gave us to test our results in their lab at ETH and for providing us also the Duckiebots.
+We want to thank the Duckietown lab for the possibility they gave us to test our results in their lab at ETH and for providing us with the new Duckiebots DB21M.
 
 ### References
 [1] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, & Hartwig Adam. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.<br>
