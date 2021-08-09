@@ -132,7 +132,7 @@ Vincenzo Polizzi - [@linkedin](https://www.linkedin.com/in/vincenzo-polizzi-6020
 
 Trevor Phillips - [@linkedin](https://www.linkedin.com/in/trevphil/) - trevphil3@gmail.com
 
-Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/viciopoli01/DuckVision)
+Project Link: [DuckVision](https://viciopoli01.github.io/DuckVision/)
 
 
 
