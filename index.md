@@ -26,7 +26,7 @@ The project we are presenting aims to create documentation and support for the O
 Since stereo vision and machine learning are the two cornerstones of the research in the autonomous systems field, we think that integrating the OpenCV and Luxonis device in Duckietown represents a step forward for the study of autonomous driving. For this reason, we are putting our effort into the Duck Vision project, hoping that it can be helpful to future students and researchers.
 
 ### About the team
-We are two Masters students in Robotics, Systems, and Control at ETH Zürich. Trevor is doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on dense monocular 3D reconstruction, and has previous experience in software engineering and in machine learning research. He has a Bachelors in Computer Science and Engineering from the University of Connecticut. Vincenzo is also doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on multi UAV systems, and he is a lab assistant in the Duckietown lab at ETH Zürich. He previously developed a mobile app to guide tourists around cities using Augmented Reality. He has a Bachelors in Automation Engineering from Politecnico di Milano. Both worked on the parking area project during the Duckietown course at ETH https://github.com/duckietown-ethz/proj-parking.
+We are two Masters students in Robotics, Systems, and Control at ETH Zürich. [Trevor](https://github.com/trevphil) is doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on dense monocular 3D reconstruction, and has previous experience in software engineering and in machine learning research. He has a Bachelors in Computer Science and Engineering from the University of Connecticut. [Vincenzo](https://github.com/viciopoli01) is also doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on multi UAV systems, and he is a lab assistant in the Duckietown lab at ETH Zürich. He previously developed a mobile app to guide tourists around cities using Augmented Reality. He has a Bachelors in Automation Engineering from Politecnico di Milano. Both worked on the parking area project during the Duckietown course at ETH https://github.com/duckietown-ethz/proj-parking.
 
 ### Video demonstrations
 Lane following using the OAK-D
@@ -86,7 +86,7 @@ To extend our work in the future, we would like to propose a few other use cases
 
 Other extensions, such as simultaneous localization and mapping (SLAM) systems which utilize the OAK-D’s stereo vision, would also be relevant. Finally, deep learning applications like detection of bounding boxes of Duckies or other Duckiebots in the environment would be a way for students to practice machine learning while also understanding how to prepare a model for inference “in production.”
 
-### Source code - repositories should be public?
+### Source code
 oakd-tutorials - Jupyter notebooks demonstrating OAK-D integration (reading cameras, stereo, machine learning) with Duckietown (software infrastructure, ROS, Docker)
 dt-gui-tools-oakd - description
 duckietown-shell-commands-oakd - Set of commands for stop and start the official camera, build and test the oaks tutorials.
@@ -96,6 +96,6 @@ duckietown-shell-commands-oakd - Set of commands for stop and start the official
 We want to say thanks to the Duckietown lab for the possibility they gave us to test our results in their lab at ETH and for providing us also the Duckiebots.
 
 ### References
-[1] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, & Hartwig Adam. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.
-[2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, & Jian Sun. (2015). Deep Residual Learning for Image Recognition.
-[3] Yu Zhang, Xin Sun, Junyu Dong, Changrui Chen, & Yue Shen. (2020). High-Order Paired-ASPP Networks for Semantic Segmentation.
+[1] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, & Hartwig Adam. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.<br>
+[2] Kaiming He, Xiangyu Zhang, Shaoqing Ren, & Jian Sun. (2015). Deep Residual Learning for Image Recognition.<br>
+[3] Yu Zhang, Xin Sun, Junyu Dong, Changrui Chen, & Yue Shen. (2020). High-Order Paired-ASPP Networks for Semantic Segmentation.<br>
