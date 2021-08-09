@@ -130,19 +130,12 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
 <!-- CONTACT -->
 ## Contact
 
-Vincenzo Polizzi - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Vincenzo Polizzi - [@linkedin](https://www.linkedin.com/in/vincenzo-polizzi-602089146/) - polivicio@gmail.com
 
-Trevor Phillips - 
+Trevor Phillips - [@linkedin](https://www.linkedin.com/in/trevphil/) - trevphil3@gmail.com
 
 Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/viciopoli01/DuckVision)
 
@@ -150,10 +143,9 @@ Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/vic
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-
-* []()
-* []()
-* []()
+Thank to:
+* [**Duckietown**](https://github.com/duckietown), for letting us using the lab.
+* **Microsoft Azure** and **intel** for sponsoring the [OpenCV AI Competition 2021](https://opencv.org/opencv-ai-competition-2021/).
 
 
 
