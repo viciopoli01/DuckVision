@@ -48,7 +48,7 @@ All the code and the camera code are available on the github repo Duck Vision.
 (3D printed mount, e.g. CAD screenshot or something like that)
 
 ### Semantic segmentation
-To demonstrate for future students how the OAK-D can be used in the context of machine learning (ML) in Duckietown, we developed a semantic segmentation network trained specifically for the Duckietown environment. Our model is an encoder-decoder network based on DeepLabv3+ [1] and utilizing a ResNet34 [2] backbone with ASPP [3] for robustness to change in object scale. The model was trained using 1500 images from the Duckietown simulator with ground-truth semantic labels and a 4:1:1 train-validation-test split. The classes learned by the model include:
+To demonstrate for future students how the OAK-D can be used in the context of machine learning (ML) in Duckietown, we developed a semantic segmentation network trained specifically for the Duckietown environment. Our model is an encoder-decoder network based on DeepLabv3+ [1] and utilizing a ResNet34 [2] backbone with ASPP [3] for robustness to change in object scale. The model was trained using 1500 images from a modified version of the [Duckietown simulator](https://github.com/viciopoli01/gym-duckietown/tree/dt-seg), developed for supporting ground-truth semantic labels, and a 4:1:1 train-validation-test split. The classes learned by the model include:
 Pedestrian (Duckie)
 Lane
 Lane marking
