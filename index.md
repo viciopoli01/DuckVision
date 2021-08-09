@@ -20,7 +20,7 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 A Duckiebot has only one visual sensor: a small camera. By integrating the OAK-D, our goal was to enhance the perception pipeline of the robot, giving a spatial representation of the environment and boosting the computational power of the car by offloading some computation to the OAK-D device. The OAK-D is not just a stereo camera, instead it represents the latest in terms of on-edge computation platforms. That is, given the onboard Vision Processing Unit (VPU), it is able to accelerate machine vision processing tasks like object recognition, gesture detection, and so on, bringing computer vision to the next level.
 
 <div style="text-align:center"><img src="media/oakd+duckiebot.png" /></div>
-<div style="text-align:center"><img src="media/oakd_on_db.jpeg"width="50% "/></div>
+<div style="text-align:center"><img src="media/oakd_on_db.png"width="50% "/></div>
 
 The project we are presenting aims to create documentation and support for the OAK-D in Duckietown, developing the didactic material and a demo. The didactic material is part of the documentation, with simple student exercises and tutorials on reading camera data in real-time, stereo vision, and machine learning (ML) applications. We also developed and 3D printed a mount to easily attach the OAK-D to the front of Duckiebot vehicles.
 
