@@ -7,7 +7,7 @@
 ***
 ***
 *** To avoid retyping too much info. Do a search and replace for the following:
-*** viciopoli01, DuckVision, twitter_handle, email, project_title, project_description
+*** viciopoli01, DuckVision, twitter_handle, email, project_title, The goal of our “Duck Vision” project was the integration of the OAK-D device from OpenCV’s AI Kit into the Duckietown platform. We think that the integration of OAK-D in the Duckietown infrastructure can boost autonomous car software development and research, as well as expose students who are working in the Duckietown framework to spatial AI and stereo vision.
 -->
 
 
@@ -25,7 +25,6 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -33,13 +32,12 @@
 <br />
 <p align="center">
   <h3 align="center">Duck Vision</h3>
-  <a href="https://github.com/viciopoli01/DuckVision">
+  <a align="center" href="https://github.com/viciopoli01/DuckVision">
     <img src="media/lanef_demo.gif" alt="Logo">
 
   </a>
 
   <p align="center">
-    The goal of our “Duck Vision” project was the integration of the OAK-D device from OpenCV’s AI Kit into the Duckietown platform. We think that the integration of OAK-D in the Duckietown infrastructure can boost autonomous car software development and research, as well as expose students who are working in the Duckietown framework to spatial AI and stereo vision.
     <br />
     <a href="https://github.com/viciopoli01/DuckVision"><strong>Explore the docs »</strong></a>
     <br />
@@ -60,9 +58,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -87,60 +82,40 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`viciopoli01`, `DuckVision`, `twitter_handle`, `email`, `project_title`, `project_description`
-
-
-### Built With
-
-* []()
-* []()
-* []()
+The goal of our “Duck Vision” project was the integration of the OAK-D device from OpenCV’s AI Kit into the Duckietown platform. We think that the integration of OAK-D in the Duckietown infrastructure can boost autonomous car software development and research, as well as expose students who are working in the Duckietown framework to spatial AI and stereo vision.
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+### Beginners
+
+To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you need to:
+
+1. Navigate to `~/.dt-shell/commands-multi/daffy/` and checkout to `daffy-oakd`.
+2. Clone the [**OAKD-Tutorials**](https://github.com/viciopoli01/oakd-tutorials) repository: 
+    `git clone git@github.com:viciopoli01/oakd-tutorials.git`
+3. Run and use the notebooks we developed, navigate to `oakd-tutorials/oakd` and run:
+    `dts oakd notebooks`.
+    At this point a Jupyter lab starts and you will be redirected on a web page. Login with the password `quackquack`. 
+4. You can find the folders `01-basic-integration`, `02-oakd-calibration`, `02-oakd-calibration`, `03-semantic-segmentation`. Each of these folders contains a notebook, follow the instructions and have fun!
+
+
+### Advanced
+
+To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you need to:
+
+1. Use the [**OAKD-template**](https://github.com/viciopoli01/oakd-template) to create your DepthAI application.
+2. Create a ROS package that uses the DepthAI Library and DTROS to have a fll integration in the Duckietown ecosystem.
+3. To build and run your application on the Duckiebot use the `dts devel run/build` commands. Refer to the [Duckietown docs](https://docs.duckietown.org/daffy/opmanual_developer/out/index.html) for more information.
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+We assume you are familiar with the Duckietown environment and you have already you computer setup to work with a Duckiebot as showed [here](https://docs.duckietown.org/daffy/opmanual_duckiebot/out/laptop_setup.html).
 
 ### Installation
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/viciopoli01/DuckVision.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
-   ```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/viciopoli01/DuckVision/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -165,7 +140,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Vincenzo Polizzi - [@twitter_handle](https://twitter.com/twitter_handle) - email
+
+Trevor Phillips - 
 
 Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/viciopoli01/DuckVision)
 
@@ -194,4 +171,3 @@ Project Link: [https://github.com/viciopoli01/DuckVision](https://github.com/vic
 [issues-url]: https://github.com/viciopoli01/DuckVision/issues
 [license-shield]: https://img.shields.io/github/license/viciopoli01/DuckVision.svg?style=for-the-badge
 [license-url]: https://github.com/viciopoli01/DuckVision/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
