@@ -88,11 +88,11 @@ To extend our work in the future, we would like to propose a few other use cases
 Other extensions, such as simultaneous localization and mapping (SLAM) systems which utilize the OAK-D’s stereo vision, would also be relevant. Finally, deep learning applications like detection of bounding boxes of Duckies or other Duckiebots in the environment would be a way for students to practice machine learning while also understanding how to prepare a model for inference “in production.”
 
 ### Source code
-[oakd-tutorials](https://github.com/viciopoli01/oakd-tutorials) - Jupyter notebooks demonstrating OAK-D integration (reading cameras, stereo, machine learning) with Duckietown (software infrastructure, ROS, Docker)
-[duckietown-shell-commands](https://github.com/duckietown/duckietown-shell-commands) - These commands come with the installation of the Duckietown Shell switching to the branch “daffy-oakd”. We added a new set of commands for stop and start the official camera, build and test the oaks tutorials.
-[oakd-calibration](https://github.com/viciopoli01/oakd-calibration) - wrapper around the DepthAI camera calibration tool.
-[oakd-base](https://github.com/viciopoli01/oakd-base) - Base image for the OAK-D template. Here we use the Duckietown ROS template and we add the installation of the DpethAI API.
-[oakd-template](https://github.com/viciopoli01/oakd-template) - A template to develop DepthAI application based on the DTROS ([Duckietown ROS](https://docs.duckietown.org/daffy/autodocs/contribute/code_style.html)) infrastructure.
+[oakd-tutorials](https://github.com/viciopoli01/oakd-tutorials) - Jupyter notebooks demonstrating OAK-D integration (reading cameras, stereo, machine learning) with Duckietown (software infrastructure, ROS, Docker)<br>
+[duckietown-shell-commands](https://github.com/duckietown/duckietown-shell-commands) - These commands come with the installation of the Duckietown Shell switching to the branch “daffy-oakd”. We added a new set of commands for stop and start the official camera, build and test the oaks tutorials.<br>
+[oakd-calibration](https://github.com/viciopoli01/oakd-calibration) - wrapper around the DepthAI camera calibration tool.<br>
+[oakd-base](https://github.com/viciopoli01/oakd-base) - Base image for the OAK-D template. Here we use the Duckietown ROS template and we add the installation of the DpethAI API.<br>
+[oakd-template](https://github.com/viciopoli01/oakd-template) - A template to develop DepthAI application based on the DTROS ([Duckietown ROS](https://docs.duckietown.org/daffy/autodocs/contribute/code_style.html)) infrastructure.<br>
 
 ### Acknowledgements
 We want to thank the Duckietown lab for the possibility they gave us to test our results in their lab at ETH and for providing us with the new Duckiebots DB21M.
