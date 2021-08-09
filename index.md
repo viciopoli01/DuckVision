@@ -1,4 +1,6 @@
-## Integrating the OAK-D from OpenCV’s AI Kit into the Duckietown Ecosystem
+## Duck Vision
+
+### Integrating the OAK-D from OpenCV’s AI Kit into the Duckietown Ecosystem
 
 **Team name**: Duck Vision <br>
 **Region 3**: Europe + Russia + Australasia <br>
@@ -6,7 +8,7 @@
 **Category**: Robotics, education <br>
 
 ### What is Duckietown?
-Duckietown (![duckietown.org](https://www.duckietown.org/)) is an open source platform used for teaching and research purposes for autonomous vehicles and robotics in more than 90 universities around the world. The Duckietown project started at MIT in 2016, with the scope of making robotics classes more practical, more interactive, and accessible to everyone. Duckietown is a small-scale environment composed of roads, intersections, street markings, and of course, “Duckiebot” robots which drive around in a complex multi-agent system.
+Duckietown ([duckietown.org](https://www.duckietown.org/)) is an open source platform used for teaching and research purposes for autonomous vehicles and robotics in more than 90 universities around the world. The Duckietown project started at MIT in 2016, with the scope of making robotics classes more practical, more interactive, and accessible to everyone. Duckietown is a small-scale environment composed of roads, intersections, street markings, and of course, “Duckiebot” robots which drive around in a complex multi-agent system.
 <div style="text-align:center"><img src="media/duckietownback.png" /></div>
 <div style="text-align:center">Image credit: duckietown.org</div>
 
@@ -17,6 +19,7 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 ### Scope
 A Duckiebot has only one visual sensor: a small camera. By integrating the OAK-D, our goal was to enhance the perception pipeline of the robot, giving a spatial representation of the environment and boosting the computational power of the car by offloading some computation to the OAK-D device. The OAK-D is not just a stereo camera, instead it represents the latest in terms of on-edge computation platforms. That is, given the onboard Vision Processing Unit (VPU), it is able to accelerate machine vision processing tasks like object recognition, gesture detection, and so on, bringing computer vision to the next level.
 
+<div style="text-align:center"><img src="media/oakd+duckiebot.png" /></div>
 
 The project we are presenting aims to create documentation and support for the OAK-D in Duckietown, developing the didactic material and a demo. The didactic material is part of the documentation, with simple student exercises and tutorials on reading camera data in real-time, stereo vision, and machine learning (ML) applications. We also developed and 3D printed a mount to easily attach the OAK-D to the front of Duckiebot vehicles.
 
@@ -55,12 +58,14 @@ Nature
 Building
 “Other” category (unknown)
 
-
-Pictured: sample image from simulation (left) with ground-truth semantic labels (right)
+<div style="text-align:center"><img src="media/semanticandoriginal.png" /></div>
+<div style="text-align:center">Pictured: sample image from simulation (left) with ground-truth semantic labels (right)</div>
 
 A few samples comparing the ground truth vs. predicted segmentation mask are given below:
 
-Pictured: input image (top), ground truth segmentation (middle), prediction (bottom)
+<div style="text-align:center"><img src="media/multiseg.png" /></div>
+<div style="text-align:center">Pictured: input image (top), ground truth segmentation (middle), prediction (bottom)</div>
+
 
 Our loss function weights classes inversely to their relative frequency in the training dataset, such that classes which appear less often (e.g. pedestrians) receive higher weight during training and those that appear more often (e.g. lanes) are given less weight.
 
@@ -68,7 +73,10 @@ After training in PyTorch, we exported our model to ONNX and subsequently conver
 
 The trained model was able to detect a pedestrian (Duckie) outside of simulation, as shown in our video and the visualization below:
 
-Pictured: real-world usage of our trained model to segment a “pedestrian” (Duckie)
+
+<div style="text-align:center"><img src="media/duckseg.png" /></div>
+<div style="text-align:center">Pictured: real-world usage of our trained model to segment a “pedestrian” (Duckie)</div>
+
 
 ### Major challenges
 (depthai API is constantly changing and very buggy, limited support with Docker)
