@@ -103,7 +103,7 @@ To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you nee
 
 ### Advanced
 
-To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you need to:
+To create advanced pipeline with the OAK-D on you Duckiebot you can:
 
 1. Use the [**OAKD-template**](https://github.com/viciopoli01/oakd-template) to create your DepthAI application.
 2. Create a ROS package that uses the DepthAI Library and DTROS to have a fll integration in the Duckietown ecosystem.
