@@ -30,8 +30,8 @@ Since stereo vision and machine learning are the two cornerstones of the researc
 We are two Masters students in Robotics, Systems, and Control at ETH Zürich. [Trevor](https://github.com/trevphil) is doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on dense monocular 3D reconstruction, and has previous experience in software engineering and in machine learning research. He has a Bachelors in Computer Science and Engineering from the University of Connecticut. [Vincenzo](https://github.com/viciopoli01) is also doing his Master’s thesis at NASA Jet Propulsion Laboratory (JPL) on multi UAV systems, and he is a lab assistant in the Duckietown lab at ETH Zürich. He previously developed a mobile app to guide tourists around cities using Augmented Reality. He has a Bachelors in Automation Engineering from Politecnico di Milano. Both worked on the parking area project during the Duckietown course at ETH https://github.com/duckietown-ethz/proj-parking.
 
 ### Video demonstrations
-Lane following using the OAK-D
-Semantic segmentation using the OAK-D
+[Lane following using the OAK-D](https://drive.google.com/file/d/1bDS96RVs57uxymDaOdxVfpVUo0sHWi3Y/view)<br>
+[Semantic segmentation using the OAK-D](https://drive.google.com/file/d/1APTfD7pNToiSmuARlW723rjv7IL7m0kO/view)<br>
 
 ### Project details
 (e.g. explanation of the changes to Duckietown software infrastructure to enable switching from normal camera to OAK-D)
