@@ -105,6 +105,11 @@ To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you nee
 2. Create a ROS package that uses the DepthAI Library and DTROS to have a fll integration in the Duckietown ecosystem.
 3. To build and run your application on the Duckiebot use the `dts devel run/build` commands. Refer to the [Duckietown docs](https://docs.duckietown.org/daffy/opmanual_developer/out/index.html) for more information.
 
+### Camera Mount
+
+For easily mount the OAK-D on your Duckiebot we designed a camera support you can print.
+The files are in the folder [camera_mount](camera_mount/).
+
 
 ### Prerequisites
 
