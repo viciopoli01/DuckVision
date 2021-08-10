@@ -1,4 +1,5 @@
 ## Duck Vision
+<div style="text-align:center"><img src="media/oakd_on_db.png" width="50%"/></div>
 
 ### Integrating the OAK-D from OpenCV’s AI Kit into the Duckietown Ecosystem
 
