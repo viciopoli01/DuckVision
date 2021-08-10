@@ -99,7 +99,7 @@ Other extensions, such as simultaneous localization and mapping (SLAM) systems w
 [oakd-template](https://github.com/viciopoli01/oakd-template) - A template to develop DepthAI application based on the DTROS ([Duckietown ROS](https://docs.duckietown.org/daffy/autodocs/contribute/code_style.html)) infrastructure.<br>
 
 ### Acknowledgements
-We want to thank the Duckietown lab for the possibility they gave us to test our results in their lab and for providing us with the new Duckiebots DB21M.
+We would like to thank the Frazzoli laboratory of the Institute of Dynamic Systems and Control, Department of Mechanical and Process Engineering of the Swiss Federal Institute of Technology (ETHZ) for providing us access to the Duckietown Autolab infrastructure.
 
 ### References
 [1] Liang-Chieh Chen, Yukun Zhu, George Papandreou, Florian Schroff, & Hartwig Adam. (2018). Encoder-Decoder with Atrous Separable Convolution for Semantic Image Segmentation.<br>
