@@ -47,7 +47,7 @@ All the code and the camera code are available on the github repo Duck Vision.
 ### Camera mount
 We created a CAD file for printing the camera mount for the Duckiebot DB21M 
 
-<div style="text-align:center"><img src="media/camera_mount.png" /></div>
+<div style="text-align:center"><img src="media/camera_mount.png" width="50%" /></div>
 <div style="text-align:center">Image credit: [Rafael Froehlich](https://github.com/rafaelfroehlich)</div>
 
 ### Semantic segmentation
