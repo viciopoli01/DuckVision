@@ -88,6 +88,7 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 2. Switch on you Duckiebot and disable the official camera: `dts duckiebot camera --stop`.
 3. Mount the OAK-D on the robot using the [camera mount](camera_mount/).
 
+
 ### Beginners
 
 To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you need to:
