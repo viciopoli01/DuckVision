@@ -84,17 +84,20 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 <!-- GETTING STARTED -->
 ## Getting Started
 
+1. Navigate to `~/.dt-shell/commands-multi/daffy/` and checkout to `daffy-oakd`.
+2. Switch on you Duckiebot and disable the official camera: `dts duckiebot camera --stop`.
+3. Mount the OAK-D on the robot using the [camera mount](camera_mount/).
+
 ### Beginners
 
 To integrate the basics of the OAK-D on a Duckiebot (tested with DB21M), you need to:
 
-1. Navigate to `~/.dt-shell/commands-multi/daffy/` and checkout to `daffy-oakd`.
-2. Clone the [**OAKD-Tutorials**](https://github.com/viciopoli01/oakd-tutorials) repository: 
+1. Clone the [**OAKD-Tutorials**](https://github.com/viciopoli01/oakd-tutorials) repository: 
     `git clone git@github.com:viciopoli01/oakd-tutorials.git`
-3. Run and use the notebooks we developed, navigate to `oakd-tutorials/oakd` and run:
+2. Run and use the notebooks we developed, navigate to `oakd-tutorials/oakd` and run:
     `dts oakd notebooks`.
     At this point a Jupyter lab starts and you will be redirected on a web page. Login with the password `quackquack`. 
-4. You can find the folders `01-basic-integration`, `02-oakd-calibration`, `02-oakd-calibration`, `03-semantic-segmentation`. Each of these folders contains a notebook, follow the instructions and have fun!
+3. You can find the folders `01-basic-integration`, `02-oakd-calibration`, `02-oakd-calibration`, `03-semantic-segmentation`. Each of these folders contains a notebook, follow the instructions and have fun!
 
 
 ### Advanced
