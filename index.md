@@ -45,7 +45,10 @@ All the code and the camera code are available on the github repo Duck Vision.
 
 
 ### Camera mount
-(3D printed mount, e.g. CAD screenshot or something like that)
+We created a CAD file for printing the camera mount for the Duckiebot DB21M 
+
+<div style="text-align:center"><img src="media/camera_mount.png" /></div>
+<div style="text-align:center">Image credit: [Rafael Froehlich](https://github.com/rafaelfroehlich)</div>
 
 ### Semantic segmentation
 To demonstrate for future students how the OAK-D can be used in the context of machine learning (ML) in Duckietown, we developed a semantic segmentation network trained specifically for the Duckietown environment. Our model is an encoder-decoder network based on DeepLabv3+ [1] and utilizing a ResNet34 [2] backbone with ASPP [3] for robustness to change in object scale. The model was trained using 1500 images from a modified version of the [Duckietown simulator](https://github.com/viciopoli01/gym-duckietown/tree/dt-seg), developed for supporting ground-truth semantic labels, and a 4:1:1 train-validation-test split. The classes learned by the model include:
