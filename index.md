@@ -84,7 +84,7 @@ The trained model was able to detect a pedestrian (Duckie) outside of simulation
 
 
 ### Major challenges
-(depthai API is constantly changing and very buggy, limited support with Docker)
+We know that Open Source projects are always changing and improving, this represents strength and weakness at the same time of the projects. We encountered some issues with the USBrulers update inside the Docker container and some troubles with the DepthAI versions. At the end of the day, this is experience, and now we can say we are comfortable with the framework. We solved the problems, and we hope that they can be useful to the entire community.
 
 ### Future work
 To extend our work in the future, we would like to propose a few other use cases of the OAK-D in Duckietown which could be developed to help students learn about robotics and autonomous vehicles. One example would be the implementation of a visual odometry (VO) system. A very simple form of this system could be to track features between sequential frames, and to produce a 3D point cloud in the first frame using the OAK-D’s stereo vision. Finding the relative motion of the second frame could be achieved by solving for a rigid body transformation via a non-linear optimization which minimizes the reprojection error of the 3D point cloud vs. the tracked feature positions in the second frame. Utilizing semantic information to match features more robustly would extend this system into the machine learning realm.
