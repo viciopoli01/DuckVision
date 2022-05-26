@@ -84,7 +84,7 @@ The goal of our “Duck Vision” project was the integration of the OAK-D devic
 <!-- GETTING STARTED -->
 ## Getting Started
 
-1. Run on your terminal `dts --set_version daffy_oakd`.
+1. Run on your terminal `dts --set-version daffy-oakd`.
 2. Switch on you Duckiebot and disable the official camera: `dts duckiebot camera --stop`.
 3. Mount the OAK-D on the robot using the [camera mount](camera_mount/).
 
